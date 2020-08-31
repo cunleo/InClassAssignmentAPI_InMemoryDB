@@ -103,7 +103,7 @@ namespace CourseAPI.Controllers
             _context.enrollment.Remove(enrollmentPoco);
              _context.SaveChangesAsync();
 
-            return Ok(); //   return enrollmentPoco;
+            return Ok(); 
         }
        
     }
